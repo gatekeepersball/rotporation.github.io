@@ -45,6 +45,7 @@ header {
 .centered-image{
   max-width: 70%; 
   padding-bottom: 1rem;
+  margin-bottom: 2rem; 
 }
 
 img{
