@@ -80,7 +80,7 @@ img{
   text-align: center;
 }
 .item-2{
-  margin-top: -5%;
+  
   padding-left: 5%; 
   padding-right: 5%;
   font-size: clamp(1rem, 2vw, 2rem);
