@@ -1,0 +1,104 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  background-color: #000000
+
+}
+
+header {
+
+  background-color: #000000
+  padding: 1rem 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.centered-image{
+  max-width: 70%; 
+  padding-bottom: 1rem;
+}
+
+img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.container{
+  
+  padding-top: 50px;  
+  display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+
+
+  
+}
+.h2{
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: clamp(1rem, 2vw, 2rem); 
+  line-height: 1.5; 
+}
+
+.item-3{
+  
+  margin-top: -2%;
+  padding-left: 5%; 
+  padding-right: 5%;
+  font-size: clamp(1rem, 2vw, 2rem); 
+  line-height: 1.5; 
+  text-align: center;
+}
+.item-2{
+  margin-top: -5%;
+  padding-left: 5%; 
+  padding-right: 5%;
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.gif{
+  max-width: 90%;
+}
+section {
+  padding: 2rem -5rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #000000
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
